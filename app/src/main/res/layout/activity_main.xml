@@ -9,5 +9,51 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+    <LinearLayout
+            android:id="@+id/stripes"
+            android:layout_width="1000dp"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            android:rotation="-45" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/stripe_gradient"/>
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
